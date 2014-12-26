@@ -18,7 +18,11 @@ for the challenge. Save it! You will use it in the next steps.
 stage1.py -> It gets a string from the endpoint, reverses it and send
  to the endpoint. I wrote more than one method to solve it. Indeed, that's
  was one of the reasons I chose python: You have freedom to solve a problem 
- in many ways. 
+ in many ways. Don't forget to use YOUR token!
 
- 
+
+stage2.py -> It gets a target word (needle) and a list of words (haystack) 
+from endpoint. Our mission here is sending the position our needle was found
+ to the endpoint.
+
 
