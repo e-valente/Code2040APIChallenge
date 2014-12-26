@@ -16,7 +16,7 @@ def searchNeedle(needle, haystacklist):
 
 if __name__ == '__main__':
 	
-	#Data to be send (to get the string)
+	#Data to be send (to get our task)
 	ourdict = {'token': "SqRw7EIYkX"}
 	#convert our data in JSON format
 	jdata = json.dumps(ourdict)
