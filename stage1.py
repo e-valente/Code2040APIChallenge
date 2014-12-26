@@ -14,7 +14,6 @@ def reverseString3(mystr):
 	result_str = ""
 	for i in xrange(len(mystr), 0, -1):
 		result_str += mystr[i-1]
-		print i
 	return result_str	
 
 
