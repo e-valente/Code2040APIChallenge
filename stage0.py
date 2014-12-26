@@ -10,12 +10,9 @@ ourdict = {'email': "emanuelvalente@gmail.com", \
 
 #convert our data in JSON format
 jdata = json.dumps(ourdict)
-
 #Send it
 response = urllib2.urlopen("http://challenge.code2040.org/api/register", jdata)
-
 #get the content
 page_content = response.read()
-
 #print it (our token)
 print(page_content)
