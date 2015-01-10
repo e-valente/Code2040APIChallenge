@@ -1,11 +1,10 @@
 Code2040APIChallenge
 ======================
-This project hosts sorce codes to solve the Code2040 Challenge. 
+This project hosts source codes to solve the Code2040 Challenge. 
 For more details, visit http://challenge.code2040.org/
 
 The stages are in separeted files. I solved it using python language 
-but, as described in the specification, you can use any language 
-to solve it. 
+but, as described in the specification, you can use any language. 
 
 Files:
 
@@ -25,7 +24,7 @@ from endpoint. Our mission here is sending the position our needle was found
  to the endpoint.
 
 stage3.py -> It gets a target prefix and a list of words from endpoint. 
-Our goal is send a list of words that don't contain the given prefix.
+Our goal is sending a list of words that don't contain the given prefix.
 
 stage4.py -> Maybe it's the most difficult task. The API will give us a dictionary,
 which contains a datestamp and an interval. The value for datestamp is a 

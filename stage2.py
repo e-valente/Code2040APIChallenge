@@ -7,15 +7,15 @@ import json, sys
 #returns index where needle was found
 #O(n)
 def searchNeedle(needle, haystacklist):
-	
+
 	for i in range(len(ourlist)):
 		if ourlist[i] == ourneedle:
 			return i
 
-	return -1 #if we dont find it		
+	return -1 #if we dont find it
 
 if __name__ == '__main__':
-	
+
 	#Data to be send (to get our task)
 	ourdict = {'token': "SqRw7EIYkX"}
 	#convert our data in JSON format
@@ -36,7 +36,7 @@ if __name__ == '__main__':
 
 	#Our answer
 	ourposition = searchNeedle(ourneedle, ourlist)
-	
+
 	#We will send our answer to the endpoint
 	ourdict = {'token': "SqRw7EIYkX", 'needle': ourposition}
 	#convert our data in JSON format

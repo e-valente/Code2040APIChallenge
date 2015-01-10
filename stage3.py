@@ -7,15 +7,15 @@ import json, sys
 #returns index where needle was found
 #O(n)
 def searchNeedle(needle, haystacklist):
-	
+
 	for i in range(len(ourlist)):
 		if ourlist[i] == ourneedle:
 			return i
 
-	return -1 #if we dont find it		
+	return -1 #if we dont find it
 
 if __name__ == '__main__':
-	
+
 	#Data to be send (to get our task)
 	ourdict = {'token': "SqRw7EIYkX"}
 	#convert our data in JSON format
@@ -35,7 +35,7 @@ if __name__ == '__main__':
 	prefix = ourdict['prefix']
 
 	#our array that does not contain
-	#the the prefix in the beggining 
+	#the the prefix in the beggining
 	#of each word
 	answer = []
 	for word in words:
