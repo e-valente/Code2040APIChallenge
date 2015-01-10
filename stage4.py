@@ -10,7 +10,7 @@ import json, sys, re, datetime
 #so that's why we're using this method
 def parseIsoToDateTime(isoDate):
 
-	#were are using some string "hacks" here!
+	#We're using some string "hacks" here!
 	mystr = isoDate.replace('T', ' ')
 	mystr = mystr.replace('Z', ' ')
 	mylist = re.split('[-:. ]', mystr)
